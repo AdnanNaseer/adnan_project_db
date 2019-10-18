@@ -4,9 +4,9 @@ try {
   pool  = mysql.createPool({
     connectionLimit : 10,
     host            : 'localhost',
-    user            : 'devdemo',
-    password        : 'devdemo',
-    database        : 'userdemo'
+    user            : 'root',
+    password        : 'root',
+    database        : 'project_db'
   });
 
 } catch (error) {
